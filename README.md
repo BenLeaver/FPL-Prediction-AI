@@ -33,6 +33,6 @@ Below are some of the main limitations of this version of the AI for predicting 
 
 `preprocess_training.py` - Removes columns `first_name`, `second_name` and `year` that should not be used for training the model. Replaces element type with a corresponding integer e.g 'GK' -> 0, 'FWD' -> 3. Replaces any missing values which may occur in the previous season columns with the mean.
 
-`random_forest_regressor.py` - Splits training data into 80% train and 20% test. Fits a RandomForestRegressor model with the training data. Is then evaluated using the Mean Squared Error and R^2 Score. Then saves the model (file size was too large to upload to GitHub).
+`random_forest_regressor.py` - Splits training data into 80% train and 20% test. Fits a RandomForestRegressor model with the training data. Is then evaluated using the Mean Squared Error and R^2 Score. Then saves the model.
 
 `predict_total_points.py` - An implementation of using the AI to predict total points. I used this to test using the model (trained on 2023-24 data) to predict data from 2021-22 and 2022-23 seasons, but this can be updated as required e.g, you train it on all three previously mentioned seasons and use it to predict the 2024-25 season.
