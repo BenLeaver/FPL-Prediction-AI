@@ -8,12 +8,12 @@ Project using machine learning to predict the players which are best picks in th
 - Random Forest model trained on historical seasons, with predictions for current season.
 - Improved performance of the data and preprocessing pipeline.
 - Fully refactored, maintainable code.
-- Folder: [FPL_AI_V1B](FPL_AI_V1a/README.md)
+- Folder: [FPL_AI_V1B](FPL_AI_V1b/README.md)
 
 ### V1A (Archived)
 - My first attempt at the project.
 - Useful to see the development process and early feature engineering.
-- Folder: [FPL_AI_V1A](FPL_AI_V1b/README.md)
+- Folder: [FPL_AI_V1A](FPL_AI_V1a/README.md)
 
 
 ## Data used?
