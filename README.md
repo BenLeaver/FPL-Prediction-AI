@@ -11,7 +11,7 @@ Project using machine learning to predict the players which are best picks in th
 - Folder: [FPL_AI_V1B](FPL_AI_V1b/README.md)
 
 ### V1A (Archived)
-- My first attempt at the project.
+- My first prototype.
 - Useful to see the development process and early feature engineering.
 - Folder: [FPL_AI_V1A](FPL_AI_V1a/README.md)
 
