@@ -1,10 +1,6 @@
-# FPL-Prediction-AI
-Project using machine learning to predict the players which are best picks in the Fantasy Premier League (FPL) game.
-
-## Data used?
-Many thanks to https://github.com/vaastav/Fantasy-Premier-League for providing historical FPL data of each player. From this I used data from the 2020-21, 2021-22, 2022-23 and 2023-24 seasons. In the future, I plan to use data from the FPL API to get data from the current season, and use it to test the AI and make future predictions about player points.
-
 ## FPL AI V1A
+
+
 ### Overview
 This version of the AI was intended to be a very basic prototype, to be used as a base for building future more complex versions of the AI. A random forest regressor model was used, which takes player data for a specific gameweek as input to try and predict how many total points the player will score by the end of the season. The idea is that the best players are those with the highest total points predictions. 
 
