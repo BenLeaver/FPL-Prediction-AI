@@ -21,9 +21,7 @@ def run_current_predictions(
         prev_year (str): Previous season, e.g. "2024-25".
         model_path (str): Path to the trained model pickle file.
     """
-    input_data_path = (
-        f"data/pre-predictions/processed_data/{gw}_{year}_model_ready.csv"
-    )
+    input_data_path = f"data/pre-predictions/processed_data/{gw}_{year}_model_ready.csv"
     output_path = f"outputs/predictions/{gw}_{year}_v1b_predictions.csv"
 
     save_model_ready_api_data(gw, year, prev_year)
@@ -32,4 +30,4 @@ def run_current_predictions(
 
 
 if __name__ == "__main__":
-    run_current_predictions(1, "2025-26", "2024-25")
+    run_current_predictions(3, "2025-26", "2024-25")
