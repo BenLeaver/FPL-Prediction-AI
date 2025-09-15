@@ -30,4 +30,4 @@ def run_current_predictions(
 
 
 if __name__ == "__main__":
-    run_current_predictions(3, "2025-26", "2024-25")
+    run_current_predictions(4, "2025-26", "2024-25")
