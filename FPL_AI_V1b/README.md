@@ -4,7 +4,7 @@
 
 This version is a fully refactored and maintainable iteration of the AI, building on V1A. The main goal remains predicting total points for FPL players, but this version introduces several improvements.
 
-**To get the current predictions, use command `python -m scripts.predict_pipeline`. Adjust the gameweek and year in predict_pipeline.py as required.**
+**To get the current predictions, use command `python -m scripts.predict_pipeline`. Adjust the gameweek and year in `predict_pipeline.py` as required.**
 
 ### Improvements
 
