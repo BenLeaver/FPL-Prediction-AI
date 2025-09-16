@@ -1,4 +1,6 @@
 pandas
-scikit-learn
+numpy
+scikit-learn==1.7.1
 jupyter
 joblib
+shap

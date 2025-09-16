@@ -81,6 +81,6 @@ def load_final_predictions(gw: int, year: str) -> pd.DataFrame:
 
 if __name__ == "__main__":
     print("main")
-    final_df = load_final_predictions(3, "2025-26")
-    print("<==== Top 20 Predictions after GW3 ====>")
+    final_df = load_final_predictions(1, "2025-26")
+    print("<==== Top 10 Predictions after GW3 ====>")
     show_top_players_by_position(final_df, 20)

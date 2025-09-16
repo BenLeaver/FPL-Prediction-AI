@@ -20,8 +20,20 @@ Project using machine learning to predict the players which are best picks in th
 
 ## Predictions
 
-Total Points Predictions made after GW4 using FPL_AI_V1B.
-<img src="Screenshots/Predictions_GW4_2025-26.png" alt="GW4 Top 10 Predictions" width="582" height="916">
+Total Points Predictions made after GW4 using FPL_AI_V1B:
+<img src="Screenshots/V1B/Predictions_GW4_2025-26.png" alt="GW4 Top 10 Predictions" width="582" height="826">
+
+## Feature Importance
+
+### Random Forest
+
+**"Which features help trees split better, on average?"**
+<img src="Screenshots/V1B/Top20 Feature Importances Random Forest.png" alt="Horizontal Bar Graph showing the top 20 features using Random Forest Importances" width="547" height="982">
+
+### SHAP (SHapley Additive exPlanations)
+
+**"Which features actually move predictions up or down for players, across samples?"**
+<img src="Screenshots/V1B/Top20 Feature Importances SHAP.png" alt="Horizontal Bar Graph showing the top 20 features using SHAP values" width="1060" height="630">
 
 ## Data used?
 
